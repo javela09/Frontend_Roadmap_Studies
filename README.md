@@ -8,3 +8,5 @@ Done:
 https://roadmap.sh/projects/basic-html-website
 
 Done: https://roadmap.sh/projects/portfolio-website
+
+Done: https://roadmap.sh/projects/changelog-component
