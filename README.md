@@ -29,3 +29,9 @@
 - ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/04_Changelog_Component)
 
 ---
+
+### 📝 Testimonial Cards
+- 🔗 **Exercise**: [https://roadmap.sh/projects/testimonial-cards](https://roadmap.sh/projects/testimonial-cards)
+- ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/05_Testimonial_Cards)
+
+---
