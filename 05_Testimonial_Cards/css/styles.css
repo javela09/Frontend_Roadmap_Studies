@@ -1,0 +1,210 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+
+    width: 400px;
+
+    margin: 100px;
+}
+
+.card1 .opinion {
+    padding: 5px 20px;
+    
+    border-radius: 20px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.card1 .opinion::before {
+    border: 25px solid rgb(20, 20, 20);
+    content: '';
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    position: relative;
+    top: 170px;
+    left: -8px;
+}
+
+.card1 .opinion p {
+    margin: 20px 0;
+    padding: 0;
+}
+
+.card1 .person {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    margin-top: 20px;
+}
+
+.card1 .person img {
+    display: flex;
+    width: 20%;
+    border-radius: 50%;
+}
+
+.card1 .person .name {
+    width: 80%;
+    height: fit-content;
+    margin: auto 0;
+}
+
+.card1 .person h2, p {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+
+    width: 400px;
+
+    margin: 100px;
+
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.card2 .opinion {
+    padding: 5px 20px;
+}
+
+.card2 .opinion p {
+    margin: 20px 0;
+    padding: 0;
+}
+
+.card2 .person {
+    display: flex;
+    flex-direction: row;
+    
+    margin: 20px;
+}
+
+.card2 .person img {
+    display: flex;
+    width: 20%;
+    border-radius: 50%;
+}
+
+.card2 .person .name {
+    width: 80%;
+    height: fit-content;
+    margin: auto 0;
+}
+
+.card2 .person h2, p {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: row;
+
+    width: 600px;
+
+    margin: 100px;
+}
+
+.card3 .profile-picture{
+    display: flex;
+    width: 40%;
+    margin-right: 10px;
+}
+
+.card3 .profile-picture img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card3 .content {
+    display: flex;
+    flex-direction: column;
+
+    width: 60%;
+
+    border-radius: 20px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+
+    padding: 20px 0;
+}
+
+.card3 .stars {
+    padding: 5px 20px;
+    filter: invert();
+}
+
+.card3 h2 {
+    padding: 5px 20px;
+}
+
+.card3 .person .name p {
+    color: gray;
+}
+
+.card3 p {
+    padding: 5px 20px;
+}
+
+.card4 {
+    display: flex;
+    flex-direction: column;
+
+    width: 600px;
+
+    margin: 100px;
+
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.card4 .opinion {
+    padding: 50px;
+    text-align: center;
+}
+
+.card4 .profile-picture {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+.card4 .profile-picture p{
+    display: flex;
+
+    margin: auto 0;
+}
+
+.card4 .profile-picture img {
+    width: 10%;
+    border-radius: 50%;
+    padding: 0 10px;
+}
+
+.card4 .profile-picture .other-opinion {
+    scale: 0.9;
+    filter: opacity(50%);
+}
+
+.card4 .person {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.card4 .person .name {
+    padding: 20px 0 50px 0;
+}
