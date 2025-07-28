@@ -35,3 +35,9 @@
 - ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/05_Testimonial_Cards)
 
 ---
+
+### 📝 Datepicker UI
+- 🔗 **Exercise**: [https://roadmap.sh/projects/datepicker-ui](https://roadmap.sh/projects/datepicker-ui)
+- ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/06_Datepicker_UI)
+
+---
