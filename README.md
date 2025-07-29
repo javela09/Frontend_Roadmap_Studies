@@ -41,3 +41,10 @@
 - ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/06_Datepicker_UI)
 
 ---
+
+### 📝 Accessible Form UI
+- 🔗 **Exercise**: [https://roadmap.sh/projects/accessible-form-ui](https://roadmap.sh/projects/accessible-form-ui)
+- ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/07_Accessible_Form_UI)
+
+---
+
