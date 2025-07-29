@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Form UI</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <form action="">
+                <div>
+                    <label for="name" class="form">Full name</label>
+                    <input type="text" name="name" id="name" placeholder="What should we call you?" aria-required="true" aria-errormessage="name-error">
+                    <p id="name-error" class="error" aria-live="polite">The name entered is not valid.</p>
+                </div>
+                <div>
+                    <label for="email" class="form">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Where can we contact you?" aria-required="true" aria-errormessage="email-error">
+                    <p id="email-error" class="error" aria-live="polite">Invalid or already used email address.</p>
+                </div>
+
+                <div>
+                    <label for="password" class="form">Enter Password</label>
+                    <div class="pass-input">
+                        <input type="password" name="password" id="password" placeholder="xxxxxxxx" aria-required="true" minlength="8" aria-errormessage="password-error">
+                        <button type="button">
+                            <img src="img/eye.svg" alt="eye icon">
+                        </button>
+                    </div>
+                    <p id="password-error" class="error" aria-live="polite">Password must be at least 8 characters long.</p>
+                </div>
+
+                <div>
+                    <label for="confirm-password" class="form">Confirm Password</label>
+                    <div class="pass-input">
+                        <input type="password" name="confirm-password" id="confirm-password" placeholder="xxxxxxxx" aria-required="true" minlength="8" aria-errormessage="confirm-password-error">
+                        <button type="button">
+                            <img src="img/eye.svg" alt="eye icon">
+                        </button>
+                    </div>
+                    <p id="confirm-password-error" class="error" aria-live="polite">Passwords do not match.</p>
+                </div>
+
+                <button type="submit" class="update-profile" aria-label="Update profile button">
+                    Update Profile
+                </button>
+            </form>
+        </div>
+        <div class="right">
+            <div class="progress">
+                <svg class="progress-ring" role="progressbar" width="120" height="120">
+                    <circle class="progress-ring_background" cx="60" cy="60" r="54" />
+                    <circle class="progress-ring_circle" cx="60" cy="60" r="54" />
+                    <text x="50%" y="-50%" text-anchor="middle" dy=".3em" class="progress-ring_label">65%</text>
+                </svg>
+                <p>Profile Completeness</p>
+            </div>
+            <div class="requirements">
+                <ul>
+                    <li class="completed">Create Account</li>
+                    <li class="completed">Update Roadmap Progress</li>
+                    <li class="completed">Setup Public Profile</li>
+                    <li class="pending">Complete your first project</li>
+                    <li class="pending">Invite your Friends</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

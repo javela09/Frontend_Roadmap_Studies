@@ -1,0 +1,148 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    height: 40vh;
+    min-width: 500px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    min-width: max-content;
+    margin-left: 20px;
+    height: 100%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30vw;
+    height: 100%;
+    min-width: max-content;
+}
+
+.left form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.left input {
+    margin-top: 5px;
+    padding-left: 5px;
+    width: 100%;
+    height: 2rem;
+    border: none;
+
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.left input:focus, button:focus {
+    font-weight: 600;
+    outline: 2px solid #005fcc;
+    outline-offset: 2px;
+}
+
+.left button.update-profile {
+    height: 5vh;
+    border: 1px solid black;
+    background-color: black;
+    color: white            ;
+    border-radius: 5px;
+}
+
+.pass-input {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.pass-input button {
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.pass-input button img {
+    width: 25px;
+    height: 25px;
+    margin: auto 5px;
+}
+
+#password, #confirm-password {
+    border: none;
+    margin: 0;
+    width: 90%;
+}
+
+.progress p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.progress-ring {
+  transform: rotate(-90deg);
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.progress-ring_background {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 12;
+}
+
+.progress-ring_circle {
+  fill: none;
+  stroke: #005fcc;
+  stroke-width: 12;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.35s;
+  stroke-dasharray: 339.292;
+  stroke-dashoffset: 118.75;
+}
+
+.progress-ring_label {
+  font-size: 1.2rem;
+  transform: rotate(90deg);
+  dominant-baseline: middle;
+}
+
+.requirements {
+    background-color: lightgray;
+    text-align: left;
+    padding: 10px 20px;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.completed {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.error {
+    display: none;
+    color: red;
+    font-size: 0.8rem;
+}
