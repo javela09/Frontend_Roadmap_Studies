@@ -1,0 +1,39 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1vh;
+    width: 100%;
+}
+
+.container > div {
+    display: grid;
+    row-gap: 1vh;
+}
+
+.container > div > img {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+    .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1vh;
+    width: 100%;
+}
+
+.container > div {
+    display: grid;
+    row-gap: 1vh;
+}
+
+.container > div > img {
+    width: 100%;
+    object-fit: cover;
+}
+}
