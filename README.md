@@ -48,3 +48,8 @@
 
 ---
 
+### 📝 Image Grid Layout
+- 🔗 **Exercise**: [https://roadmap.sh/projects/image-grid](https://roadmap.sh/projects/image-grid)
+- ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/07_Image_Grid_Layout)
+
+---
