@@ -60,3 +60,11 @@
 
 ---
 
+### 📝 Simple Tabs
+- 🔗 **Exercise**: [https://roadmap.sh/projects/simple-tabs](https://roadmap.sh/projects/simple-tabs)
+- ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/10_Simple_Tabs)
+
+---
+
+
+
