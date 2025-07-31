@@ -53,3 +53,10 @@
 - ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/08_Image_Grid_Layout)
 
 ---
+
+### 📝 Tooltip UI
+- 🔗 **Exercise**: [https://roadmap.sh/projects/tooltip-ui](https://roadmap.sh/projects/tooltip-ui)
+- ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/09_Tooltip_UI)
+
+---
+
