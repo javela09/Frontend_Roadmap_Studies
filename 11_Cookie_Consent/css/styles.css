@@ -1,0 +1,117 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 50vw;
+    min-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.nav-tabs-menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+}
+
+.nav-tabs-menu button {
+    background-color: transparent;
+    border: none;
+    height: 5vh;
+    color: lightgray;
+    padding: 10px;
+}
+
+.nav-tabs-menu button:hover {
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.nav-tabs-menu .active {
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.tab-content {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1vh;
+    padding-top: 20px;
+}
+
+.tab-content img {
+    width: 100%;
+
+    aspect-ratio: 1/1;
+    object-fit: cover;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.cookie-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+
+    width: 25vw;
+    max-width: 180px;
+    min-width: 150px;
+    padding: 20px;
+}
+
+.cookie-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.cookie-container img {
+    filter: invert();
+}
+
+.cookie-container button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.cookie-container .cookie-header button img {
+    width: 20px;
+}
+
+.cookie-container .cookie-info button {
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+@media (max-width: 1024px) {
+    .tab-content {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1vh;
+    padding-top: 20px;
+}
+}
