@@ -66,5 +66,12 @@
 
 ---
 
+### 📝 Simple Tabs
+- 🔗 **Exercise**: [https://roadmap.sh/projects/simple-tabs](https://roadmap.sh/projects/simple-tabs)
+- ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/10_Simple_Tabs)
 
+---
 
+### 📝 Cookie Consent
+- 🔗 **Exercise**: [https://roadmap.sh/projects/cookie-consent](https://roadmap.sh/projects/cookie-consent)
+- ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/11_Cookie_Consent)
