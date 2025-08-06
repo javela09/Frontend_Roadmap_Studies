@@ -75,3 +75,10 @@
 ### 📝 Cookie Consent
 - 🔗 **Exercise**: [https://roadmap.sh/projects/cookie-consent](https://roadmap.sh/projects/cookie-consent)
 - ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/11_Cookie_Consent)
+
+---
+
+### 📝 Restricted Textarea
+- 🔗 **Exercise**: [https://roadmap.sh/projects/restricted-textarea](https://roadmap.sh/projects/restricted-textarea)
+- ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/12_Restricted_Textarea)
+- 
