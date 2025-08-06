@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltip UI</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Contact me</h2>
+        <form action="">
+            <label for="name">
+                Name:
+                <input type="text" name="name" id="name">
+            </label>
+            <label for="email">
+                Email:
+                <input type="email" name="email" id="email">
+            </label>
+            <label for="subject">
+                Subject: 
+                <input type="text" name="subject" id="subject">
+            </label>
+            <div for="message" id="messageContainer">
+                <p>Message:</p>
+                <textarea name="message" id="message" placeholder="Start typing..."></textarea>
+                <p id="characterCounter">0</p>
+            </div>
+        </form>
+    </div>
+</body>
+
+<script src="js/textarea-control.js"></script>
+</html>
