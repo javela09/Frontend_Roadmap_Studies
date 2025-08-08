@@ -81,4 +81,9 @@
 ### 📝 Restricted Textarea
 - 🔗 **Exercise**: [https://roadmap.sh/projects/restricted-textarea](https://roadmap.sh/projects/restricted-textarea)
 - ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/12_Restricted_Textarea)
-- 
+
+---
+
+### 📝 Accordion
+- 🔗 **Exercise**: [https://roadmap.sh/projects/accordion](https://roadmap.sh/projects/accordion)
+- ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/13_Accordion)
