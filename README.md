@@ -87,3 +87,9 @@
 ### 📝 Accordion
 - 🔗 **Exercise**: [https://roadmap.sh/projects/accordion](https://roadmap.sh/projects/accordion)
 - ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/13_Accordion)
+
+---
+
+### 📝 Age Calculator
+- 🔗 **Exercise**: [https://roadmap.sh/projects/age-calculator](https://roadmap.sh/projects/age-calculator)
+- ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/14_Age_Calculator)
