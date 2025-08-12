@@ -93,3 +93,11 @@
 ### 📝 Age Calculator
 - 🔗 **Exercise**: [https://roadmap.sh/projects/age-calculator](https://roadmap.sh/projects/age-calculator)
 - ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/14_Age_Calculator)
+
+---
+
+### 📝 Flash Cards
+- 🔗 **Exercise**: [https://roadmap.sh/projects/flash-cards](https://roadmap.sh/projects/flash-cards)
+- ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/15_Flash_Cards)
+
+---
