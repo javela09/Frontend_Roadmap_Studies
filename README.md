@@ -101,3 +101,12 @@
 - ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/15_Flash_Cards)
 
 ---
+
+### 📝 Custom Dropdown
+- 🔗 **Exercise**: [https://roadmap.sh/projects/custom-dropdown](https://roadmap.sh/projects/custom-dropdown)
+- ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/16_Custom_Dropdown)
+
+---
+
+
+---
