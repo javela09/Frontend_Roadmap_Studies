@@ -108,5 +108,8 @@
 
 ---
 
+### 📝 Task Tracker
+- 🔗 **Exercise**: [https://roadmap.sh/projects/task-tracker-js](https://roadmap.sh/projects/task-tracker-js)
+- ✅ **Done**: [See repository](https://github.com/javela09/Frontend_Roadmap_Studies/tree/main/17_Task_Tracker)
 
 ---
